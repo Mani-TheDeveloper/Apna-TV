@@ -36,11 +36,6 @@ nav .nav-item {
     color: white;
 }
 
-.card {
-    background-color: #F0ECE5;
-}
-
 .card img {
-    mix-blend-mode: darken;
-    height: 65%;
+    height: 150px;
 }
