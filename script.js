@@ -1,42 +1,3 @@
-const gemini = [
-    {
-        id: 1,
-        imgURL: 'https://sund-images.sunnxt.com/195490/1000x1000_GeminiTVHDDolbyVision_195490_11f32f56-3df0-486a-b6dd-1823661ffad2.jpg',
-        name: 'Gemini TV HD - Dolby Vision',
-        url: 'https://www.sunnxt.com/live/gemini-tv-hd-dolby-vision-telugu-live/195490/gemini-tv-hd-dolby-vision'
-    },
-    {
-        id: 2,
-        imgURL: 'https://sund-images.sunnxt.com/194392/1920x1080_GeminiTVHD_194392_f0f60f9d-f692-4ab4-b335-cb971893af2f.jpg',
-        name: 'Gemini Movies HD',
-        url: 'https://www.sunnxt.com/live/gemini-movies-hd-telugu-live/192537/gemini-movies-hd'
-    },
-    {
-        id: 3,
-        imgURL: 'https://sund-images.sunnxt.com/194393/640x360_GeminiMusicHD_194393_dbfc3b93-0581-4d7c-985b-c160e0031a73.jpg',
-        name: 'Gemini Music HD',
-        url: 'https://www.sunnxt.com/live/gemini-music-hd-telugu-live/194393/gemini-music-hd'
-    },
-    {
-        id: 4,
-        imgURL: 'https://sund-images.sunnxt.com/194394/1000x1000_GeminiComedy_194394_0fe7c915-5f33-4c6f-909b-3d8d45f92f67.png',
-        name: 'Gemini Comedy',
-        url: 'https://www.sunnxt.com/live/gemini-comedy-telugu-live/194394/gemini-comedy'
-    },
-    {
-        id: 5,
-        imgURL: 'https://sund-images.sunnxt.com/194337/1000x1000_GeminiLife_194337_e1145455-d580-4b95-8f35-73e48e199533.png',
-        name: 'Gemini Life',
-        url: 'https://www.sunnxt.com/live/gemini-life-telugu-live/194337/gemini-life'
-    },
-    {
-        id: 6,
-        imgURL: 'https://sund-images.sunnxt.com/194346/200x200_KushiTV_194346_21645eb7-43c4-4721-89bf-b2658d856251.png',
-        name: 'Kushi TV',
-        url: 'https://www.sunnxt.com/live/kushi-tv-telugu-live/194346/kushi-tv'
-    },
-];
-
 const zee = [
     {
         id: 7,
@@ -217,45 +178,33 @@ function Channel(channel) {
 
 const handleEntBtn = () => {
     content.innerHTML = `
-    <div>
-        <div class="gemini">
-            <h2 class="fw-bold text-decoration-underline text-white">Gemini :</h2>
-            <div class="row">
-            ${gemini.map((channel) => Channel(channel)).join('')}
-            </div>
-        </div>
         <div class="zee mt-5">
             <h2 class="fw-bold text-decoration-underline text-white">Zee :</h2>
             <div class="row">
                 ${zee.map((channel) => Channel(channel)).join('')}
             </div>
         </div>
-    </div>
     `;
 };
 
 const handleSptBtn = () => {
     content.innerHTML = `
-    <div>
         <div class="spt">
             <h2 class="fw-bold text-decoration-underline text-white">Spiritual :</h2>
             <div class="row">
             ${spt.map((channel) => Channel(channel)).join('')}
             </div>
         </div>
-    </div>
     `;
 };
 
 const handleNewsBtn = () => {
     content.innerHTML = `
-    <div>
         <div class="news">
             <h2 class="fw-bold text-decoration-underline text-white">News :</h2>
             <div class="row">
             ${news.map((channel) => Channel(channel)).join('')}
             </div>
         </div>
-    </div>
     `;
 }
