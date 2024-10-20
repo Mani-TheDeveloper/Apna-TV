@@ -204,8 +204,8 @@ const handleHomeBtn = () => {
 function Channel(channel) {
     return (
         `<div class="col-3 text-center mt-3">
-            <div class="card h-100 px-2 py-3 d-flex flex-column justify-content-between">
-                <img src=${channel.imgURL} alt="Channel Logo" loading="lazy" class="h-75" />
+            <div class="card px-2 py-3 d-flex flex-column justify-content-between">
+                <img src=${channel.imgURL} alt="Channel Logo" loading="lazy" class="w-75 mx-auto" />
                 <h4 class="card-title mt-2">${channel.name}</h4>
                 <a href=${channel.url} target="_blank" class=" text-decoration-none text-white">
                     <button class="btn btn-outline-primary w-75 fw-bold">Watch Now!!!</button>
