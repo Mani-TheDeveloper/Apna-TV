@@ -96,12 +96,6 @@ const news = [
         url: 'https://www.youtube.com/watch?v=N-4RyrSNDjU'
     },
     {
-        id: 22,
-        imgURL: 'https://yt3.googleusercontent.com/5ktLv4mpzjW65uokh-Rn_3jDQjwTcAYv4s-aU2LJadfeQLnhu3jem8o7hsFNBoWcIFtxZ7d8=s160-c-k-c0x00ffffff-no-rj',
-        name: 'Sakshi TV',
-        url: 'https://www.youtube.com/watch?v=izl4gpPIu-8'
-    },
-    {
         id: 23,
         imgURL: 'https://yt3.googleusercontent.com/jvfA4HOgSo7vWcxeCt5_8OY4IOIDUTue6tUfeUFv1nMF8aRzHNZZCs35-aMDBYh9gm4D7IQu=s160-c-k-c0x00ffffff-no-rj',
         name: 'BIG TV Live',
