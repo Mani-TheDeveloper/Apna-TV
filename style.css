@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #00224D;
+    height: 10vh;
+}
+
+.quickLink:hover {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
+
+.quickLink {
+    cursor: pointer;
+    color: white;
+    border-radius: 1rem;
+}
+
+nav {
+    border-radius: 5rem;
+}
+
+nav .nav-item {
+    cursor: pointer;
+    color: black;
+    border-radius: 1rem;
+}
+
+.nav-item:hover {
+    background-color: black;
+    color: white;
+}
+
+.card {
+    background-color: #F0ECE5;
+}
+
+.card img {
+    mix-blend-mode: darken;
+    height: 65%;
+}
