@@ -138,7 +138,7 @@ const news = [
         id: 21,
         imgURL: 'https://yt3.googleusercontent.com/ytc/AIdro_lxDNkVmsYCjbbDzTsVH42etOlCxG8mSMYVwvUkdAFdkwc=s160-c-k-c0x00ffffff-no-rj',
         name: 'T News Telugu',
-        url: 'https://www.youtube.com/watch?v=N-4RyrSNDjU'
+        url: 'https://www.youtube.com/live/K92Ea-Fz5_A?si=hn3D1wbR6zt2vAf2'
     },
     {
         id: 23,
@@ -162,7 +162,7 @@ const news = [
         id: 26,
         imgURL: 'https://yt3.googleusercontent.com/mE_a0AGMUv3GQ2s89g3JuPrOr7vCJw_i2MeagLbqjo-WVHECino1FdV5EZpOk__KNCy5-hqEIA=s160-c-k-c0x00ffffff-no-rj',
         name: 'Mahaa News',
-        url: 'https://www.youtube.com/watch?v=pSHX6tCPDC0'
+        url: 'https://www.youtube.com/live/AYLK_0LIVIE?si=Eq482R2GTz3HwUq4'
     },
     {
         id: 27,
