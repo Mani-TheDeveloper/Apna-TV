@@ -1,3 +1,48 @@
+const gemini = [
+    {
+        id: 1,
+        imgURL: 'https://sund-images.sunnxt.com/195490/200x200_GeminiTVHDDolbyVision_195490_38c3f39f-992b-4164-abd7-89fbae701e79.jpg',
+        name: 'Gemini TV HD - Dolby Vision',
+        url: 'https://sunnxt.com/live/gemini-tv-hd-dolby-vision-telugu-live/195490/gemini-tv-hd-dolby-vision'
+    },
+    {
+        id: 2,
+        imgURL: 'https://sund-images.sunnxt.com/194392/200x200_GeminiTVHD_194392_0a146256-5869-40c5-89de-2fbb9ad6b0ce.png',
+        name: 'Gemini TV HD',
+        url: 'https://sunnxt.com/live/gemini-tv-hd-telugu-live/194392/gemini-tv-hd'
+    },
+    {
+        id: 3,
+        imgURL: 'https://sund-images.sunnxt.com/192537/200x200_GeminiMoviesHD_192537_b5634337-a7cf-4e44-9643-8df747dde8ed.png',
+        name: 'Gemini Movies HD',
+        url: 'https://sunnxt.com/live/gemini-movies-hd-telugu-live/192537/gemini-movies-hd'
+    },
+    {
+        id: 4,
+        imgURL: 'https://sund-images.sunnxt.com/194393/200x200_GeminiMusicHD_194393_38918c7e-413e-46a0-bae9-4b3b766fe6d7.png',
+        name: 'Gemini Music HD',
+        url: 'https://sunnxt.com/live/gemini-music-hd-telugu-live/194393/gemini-music-hd'
+    },
+    {
+        id: 5,
+        imgURL: 'https://sund-images.sunnxt.com/194394/200x200_GeminiComedy_194394_0fe7c915-5f33-4c6f-909b-3d8d45f92f67.png',
+        name: 'Gemini Comedy',
+        url: 'https://sunnxt.com/live/gemini-comedy-telugu-live/194394/gemini-comedy'
+    },
+    {
+        id: 6,
+        imgURL: 'https://sund-images.sunnxt.com/194337/200x200_GeminiLife_194337_e1145455-d580-4b95-8f35-73e48e199533.png',
+        name: 'Gemini Life',
+        url: 'https://sunnxt.com/live/gemini-life-telugu-live/194337/gemini-life'
+    },
+    {
+        id: 7,
+        imgURL: 'https://sund-images.sunnxt.com/194346/200x200_KushiTV_194346_21645eb7-43c4-4721-89bf-b2658d856251.png',
+        name: 'Kushi TV',
+        url: 'https://sunnxt.com/live/kushi-tv-telugu-live/194346/kushi-tv'
+    }
+]
+
 const zee = [
     {
         id: 7,
@@ -172,6 +217,12 @@ function Channel(channel) {
 
 const handleEntBtn = () => {
     content.innerHTML = `
+    <div class="gemini mt-5">
+            <h2 class="fw-bold text-decoration-underline text-white">Gemini :</h2>
+            <div class="row">
+                ${gemini.map((channel) => Channel(channel)).join('')}
+            </div>
+        </div>
         <div class="zee mt-5">
             <h2 class="fw-bold text-decoration-underline text-white">Zee :</h2>
             <div class="row">
